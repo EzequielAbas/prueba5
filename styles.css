@@ -2432,3 +2432,252 @@
             align-items: center;
         }
     }
+    
+    @media (max-width: 360px) {
+        .container-0 {
+            background-color: #d86100;
+            padding-top: 7px;
+            font-weight: bold;
+            height: 50px;
+            width: 100%;
+            max-width: 360px;
+            text-align: center;
+            color: #66301c;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-family: "Montserrat";
+            font-size: 16px;
+        }
+        #main-header {
+            padding: 0px 3px 0px 3px;
+            transition: all ease .2s;
+            -moz-transition: all ease .2s;
+            -webkit-transition: all ease .2s;
+            max-width: 360px;
+            background-color: #f19448be;
+            display: flex;
+            justify-content: space-between;
+            max-height: 500px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-between;
+            align-items: center;
+        }
+        .container-4 {
+            max-width: 360px;
+            font-family: "Montserrat";
+            font-weight: bold;
+            font-size: 16px;
+            height: 60px;
+            margin-top: 0px;
+            cursor: pointer;
+            z-index: 1;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: stretch;
+            align-content: space-around;
+            flex-wrap: nowrap;
+            margin-left: 15px;
+        }
+        .container-3 {
+            padding: 0 4px;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+            align-content: flex-start;
+            justify-content: flex-end;
+            align-items: flex-end;
+            max-width: 325px;
+            min-height: 133px;
+        }
+        .nav-categories {
+            padding: 3px;
+        }
+        .container-2 {
+            max-width: 360px;
+            font-family: "Montserrat";
+            font-weight: bold;
+            font-size: 13px;
+            max-height: 80px;
+            margin-top: 0px;
+            cursor: pointer;
+            z-index: 1;
+            display: flex;
+            flex-wrap: nowrap;
+            align-content: flex-start;
+            justify-content: center;
+            flex-direction: row-reverse;
+            align-items: flex-start;
+        }
+        .carousel {
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 1800px;
+            max-height: 150px;
+            margin-top: 20px;
+        }
+        .carousel-images img {
+            width: 360px;
+        }
+        .mensaje_tienda .container-fluid {
+            background: #ef8d3ec9;
+            font-weight: bold;
+            color: #66301c;
+            text-align: center;
+            padding: 11px 0px;
+            padding-right: 0, 5rem;
+            padding-left: 0, 5rem;
+            font-weight: 700;
+            font-size: 16px;
+            font-family: "Montserrat";
+        }
+        #products h2 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 40px;
+            color: #66301c;
+        }
+        .category {
+            background: #b95b39;
+            border: none;
+            padding: 6px 10px;
+            color: var(--bg-white);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .categories {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .section-1 {
+            display: flex;
+            background-color: #FFEBC1;
+            max-width: 360px;
+            max-height: 11000px;
+        }
+        .products-container {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            padding: 3px 0;
+            max-width: 360px;
+            max-height: 11000px;
+            flex-direction: column;
+            align-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 17px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2px;
+            margin-bottom: 0px;
+            -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+            animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+            text-align: center;
+            width: 171px;
+            height: 317px;
+        }
+        .product-card {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            overflow: hidden;
+            width: 164px;
+            height: 326px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer__brown {
+            max-width: 360px;
+            max-height: 620px;
+            font-size: 14px;
+            background-color: #ff9843be;
+            background: linear-gradient(to bottom, #f19448be, #d86100);
+            line-height: 100%;
+            color: #66301c;
+        }
+        .container-footer {
+            max-width: 97%;
+            margin: 0 auto;
+            padding: 5px;
+        }
+        .footer_menu-inferior {
+            display: flex;
+            align-items: flex-start;
+            height: 145px;
+            max-width: 360px;
+            color: #66301c;
+            line-height: 2em;
+        }
+        .text-center {
+            background-color: #d86100;
+            text-align: center;
+            position: center;
+            display: flex;
+            -webkit-justify-content: center;
+            justify-content: center;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 0px;
+            max-width: 360px;
+            font-size: 13px;
+            color: #000000;
+        }
+        .ft {
+            font-size: 18px;
+            color: #7c3a22;
+            font-weight: bold;
+        }
+        .ft-1 {
+            font-size: 14px;
+        }
+        .mediosDePago {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 250x;
+            width: 360px;
+            font-size: 18px;
+            margin-right: auto;
+            margin-left: 0px;
+            font-weight: bold;
+            padding-bottom: 5px;
+            padding: 5px;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-content: flex-end;
+        }
+        footer .contact-info {
+            color: #501f0e;
+            font-weight: bold;
+            padding: 5px;
+        }
+        #products {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0;
+            align-content: center;
+            flex-wrap: nowrap;
+        }
+    }
